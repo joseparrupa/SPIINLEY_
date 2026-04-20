@@ -65,11 +65,10 @@ function getProductImage(id) {
         8: 'images/CALCETINES 1.png',
         9: 'images/ZAPATILLAS SPINLE.png',
         10: 'images/BOTELLIN SPINLEY (1).png',
-        11: 'images/MAILLOT PRO MUJER .jpg',
-        12: 'images/CALCETINES 2.png',
-        13: 'images/CASCO 2.png',
-        14: 'images/CASCO 4.png',
-        15: 'images/BOTELLIN SPINLEY (2).png'
+        11: 'images/CALCETINES 2.png',
+        12: 'images/CASCO 2.png',
+        13: 'images/CASCO 4.png',
+        14: 'images/BOTELLIN SPINLEY (2).png'
     };
     return images[id] || 'images/CASCO.png';
 }
@@ -464,11 +463,10 @@ function initSearch() {
         { id: 8, name: 'CALCETINES PERFORMANCE', category: 'calcetines', price: 19.99, url: 'producto.html?id=8' },
         { id: 9, name: 'ZAPATILLAS CARBON ROAD', category: 'zapatillas', price: 199.99, url: 'producto.html?id=9' },
         { id: 10, name: 'BIDÓN ECO 750ML', category: 'accesorios', price: 14.99, url: 'producto.html?id=10' },
-        { id: 11, name: 'MAILLOT MUJER PRO', category: 'maillots', price: 84.99, url: 'producto.html?id=11' },
-        { id: 12, name: 'CALCETINES ECO', category: 'calcetines', price: 24.99, url: 'producto.html?id=12' },
-        { id: 13, name: 'CASCO URBAN LITE', category: 'cascos', price: 119.99, url: 'producto.html?id=13' },
-        { id: 14, name: 'CASCO ENDURO EXTREME', category: 'cascos', price: 159.99, url: 'producto.html?id=14' },
-        { id: 15, name: 'BIDÓN PRO 750ML', category: 'accesorios', price: 17.99, url: 'producto.html?id=15' }
+        { id: 11, name: 'CALCETINES ECO', category: 'calcetines', price: 24.99, url: 'producto.html?id=11' },
+        { id: 12, name: 'CASCO URBAN LITE', category: 'cascos', price: 119.99, url: 'producto.html?id=12' },
+        { id: 13, name: 'CASCO ENDURO EXTREME', category: 'cascos', price: 159.99, url: 'producto.html?id=13' },
+        { id: 14, name: 'BIDÓN PRO 750ML', category: 'accesorios', price: 17.99, url: 'producto.html?id=14' }
     ];
     
     searchInputs.forEach(input => {
@@ -936,24 +934,6 @@ const productsDatabase = {
         ],
         colors: ['#9eef6b', '#2e5c8e', '#1a1a1a'],
         sizes: ['750ml']
-    },
-    11: {
-        id: 11,
-        name: 'MAILLOT MUJER PRO',
-        category: 'WOMEN\'S JERSEY',
-        price: 84.99,
-        stock: true,
-        rating: 4.6,
-        reviews: 42,
-        description: 'Maillot diseñado específicamente para el cuerpo femenino. Corte anatómico con tejido técnico de alta calidad.',
-        images: [
-            'images/MAILLOT PRO MUJER .jpg',
-            'images/LATERAL MAILLOT PRO MUJER.png',
-            'images/TRASERA MAILLOT PRO MUJER.png',
-            'images/DETALLE MAILLOT PRO MUJER.png'
-        ],
-        colors: ['#c4382e', '#9eef6b', '#2e5c8e'],
-        sizes: ['XS', 'S', 'M', 'L']
     },
     12: {
         id: 12,
