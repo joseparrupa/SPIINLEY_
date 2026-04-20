@@ -1160,6 +1160,23 @@ body {
     margin-bottom: 8px;
 }
 
+.product-name-catalog a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.product-name-catalog a:hover {
+    color: #9eef6b;
+}
+
+.product-image-catalog a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
 .product-price-catalog {
     font-size: 16px;
     color: #9eef6b;

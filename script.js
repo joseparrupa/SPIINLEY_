@@ -66,7 +66,10 @@ function getProductImage(id) {
         9: 'images/ZAPATILLAS SPINLE.png',
         10: 'images/BOTELLIN SPINLEY (1).png',
         11: 'images/MAILLOT PRO MUJER .jpg',
-        12: 'images/CALCETINES 2.png'
+        12: 'images/CALCETINES 2.png',
+        13: 'images/CASCO 2.png',
+        14: 'images/CASCO 4.png',
+        15: 'images/BOTELLIN SPINLEY (2).png'
     };
     return images[id] || 'images/CASCO.png';
 }
@@ -462,7 +465,10 @@ function initSearch() {
         { id: 9, name: 'ZAPATILLAS CARBON ROAD', category: 'zapatillas', price: 199.99, url: 'producto.html?id=9' },
         { id: 10, name: 'BIDÓN ECO 750ML', category: 'accesorios', price: 14.99, url: 'producto.html?id=10' },
         { id: 11, name: 'MAILLOT MUJER PRO', category: 'maillots', price: 84.99, url: 'producto.html?id=11' },
-        { id: 12, name: 'CALCETINES ECO', category: 'calcetines', price: 24.99, url: 'producto.html?id=12' }
+        { id: 12, name: 'CALCETINES ECO', category: 'calcetines', price: 24.99, url: 'producto.html?id=12' },
+        { id: 13, name: 'CASCO URBAN LITE', category: 'cascos', price: 119.99, url: 'producto.html?id=13' },
+        { id: 14, name: 'CASCO ENDURO EXTREME', category: 'cascos', price: 159.99, url: 'producto.html?id=14' },
+        { id: 15, name: 'BIDÓN PRO 750ML', category: 'accesorios', price: 17.99, url: 'producto.html?id=15' }
     ];
     
     searchInputs.forEach(input => {
@@ -780,9 +786,9 @@ const productsDatabase = {
         description: 'Maillot aerodinámico de alto rendimiento para ciclistas competitivos. Diseño ajustado que reduce la resistencia al viento.',
         images: [
             'images/FOTO MODELO MAILLOT VERDE .png',
-            'images/FOTO MODELO MAILLOT VERDE .png',
-            'images/FOTO MODELO MAILLOT VERDE .png',
-            'images/FOTO MODELO MAILLOT VERDE .png'
+            'images/LATERAL MAILLOT VERDE.png',
+            'images/TRASERA MAILLOT VERDE.png',
+            'images/DETALLE MAILLOT VERDE.png'
         ],
         colors: ['#9eef6b', '#c4382e', '#2e5c8e', '#1a1a1a'],
         sizes: ['XS', 'S', 'M', 'L', 'XL']
@@ -798,9 +804,9 @@ const productsDatabase = {
         description: 'Maillot diseñado especialmente para mountain bike. Tejido resistente y transpirable ideal para rutas de montaña.',
         images: [
             'images/FOTO MODELO MAILLOT AZUL.png',
-            'images/FOTO MODELO MAILLOT AZUL.png',
-            'images/FOTO MODELO MAILLOT AZUL.png',
-            'images/FOTO MODELO MAILLOT AZUL.png'
+            'images/LATERAL MAILLOT AZUL.png',
+            'images/TRASERA MAILLOT AZUL.png',
+            'images/DETALLE MAILLOT AZUL.png'
         ],
         colors: ['#2e5c8e', '#9eef6b', '#c4382e', '#1a1a1a'],
         sizes: ['XS', 'S', 'M', 'L', 'XL']
@@ -816,9 +822,9 @@ const productsDatabase = {
         description: 'Casco aerodinámico para ciclismo de carretera. Diseño ventilado con máxima protección y comodidad.',
         images: [
             'images/CASCO 1.png',
-            'images/CASCO 1.png',
-            'images/CASCO 1.png',
-            'images/CASCO 1.png'
+            'images/LATERAL CASCO 1.png',
+            'images/TRASERA CASCO 1.png',
+            'images/DETALLE CASCO 1.png'
         ],
         colors: ['#1a1a1a', '#ffffff', '#c4382e'],
         sizes: ['S', 'M', 'L']
@@ -834,9 +840,9 @@ const productsDatabase = {
         description: 'Casco versátil con excelente ventilación y ajuste personalizable. Perfecto para entrenamientos y competiciones.',
         images: [
             'images/CASCO.png',
-            'images/CASCO.png',
-            'images/CASCO.png',
-            'images/CASCO.png'
+            'images/LATERAL CASCO.png',
+            'images/TRASERA CASCO.png',
+            'images/DETALLE CASCO.png'
         ],
         colors: ['#1a1a1a', '#ffffff', '#9eef6b'],
         sizes: ['S', 'M', 'L']
@@ -852,9 +858,9 @@ const productsDatabase = {
         description: 'Casco específico para mountain bike con protección extendida. Visera ajustable y sistema de ventilación optimizado.',
         images: [
             'images/CASCO 3.png',
-            'images/CASCO 3.png',
-            'images/CASCO 3.png',
-            'images/CASCO 3.png'
+            'images/LATERLA CASCO 3.png',
+            'images/TRASERA CASCO 3.png',
+            'images/DETALLE CASCO 3.png'
         ],
         colors: ['#1a1a1a', '#c4382e', '#2e5c8e'],
         sizes: ['S', 'M', 'L']
@@ -870,9 +876,9 @@ const productsDatabase = {
         description: 'Reloj deportivo inteligente diseñado para ciclistas. Monitoriza tu rendimiento, GPS integrado y resistente al agua.',
         images: [
             'images/RELOJ SPINLEY.png',
-            'images/RELOJ SPINLEY.png',
-            'images/RELOJ SPINLEY.png',
-            'images/RELOJ SPINLEY.png'
+            'images/LATERAL RELOJ SPINLEY.png',
+            'images/TRASERA RELOJ SPINLEY.png',
+            'images/DETALLE RELOJ SPINLEY.png'
         ],
         colors: ['#1a1a1a', '#9eef6b'],
         sizes: ['Único']
@@ -888,9 +894,9 @@ const productsDatabase = {
         description: 'Calcetines técnicos con compresión graduada. Tejido antibacteriano y costuras planas para evitar rozaduras.',
         images: [
             'images/CALCETINES 1.png',
-            'images/CALCETINES 1.png',
-            'images/CALCETINES 1.png',
-            'images/CALCETINES 1.png'
+            'images/LATERAL CALCETINES 1.png',
+            'images/TRASERA CALCETINES 1.png',
+            'images/DETALLE CALCETINES 1.png'
         ],
         colors: ['#1a1a1a', '#ffffff', '#9eef6b'],
         sizes: ['S', 'M', 'L']
@@ -906,9 +912,9 @@ const productsDatabase = {
         description: 'Zapatillas de carretera con suela de carbono. Máxima transferencia de potencia y cierre BOA de precisión.',
         images: [
             'images/ZAPATILLAS SPINLE.png',
-            'images/ZAPATILLAS SPINLE.png',
-            'images/ZAPATILLAS SPINLE.png',
-            'images/ZAPATILLAS SPINLE.png'
+            'images/LATERAL ZAPATILLAS SPINLE.png',
+            'images/TRASERA ZAPATILLAS SPINLE.png',
+            'images/DETALLE ZAPATILLAS SPINLE.png'
         ],
         colors: ['#1a1a1a', '#ffffff'],
         sizes: ['38', '39', '40', '41', '42', '43', '44', '45']
@@ -924,9 +930,9 @@ const productsDatabase = {
         description: 'Bidón ecológico fabricado con materiales reciclados. Sin BPA, fácil de limpiar y compatible con todos los portabidones.',
         images: [
             'images/BOTELLIN SPINLEY (1).png',
-            'images/BOTELLIN SPINLEY (1).png',
-            'images/BOTELLIN SPINLEY (1).png',
-            'images/BOTELLIN SPINLEY (1).png'
+            'images/LATERAL BOTELLIN SPINLEY 1.png',
+            'images/TRASERA BOTELLIN SPINLEY 1.png',
+            'images/DETALLE BOTELLIN SPINLEY 1.png'
         ],
         colors: ['#9eef6b', '#2e5c8e', '#1a1a1a'],
         sizes: ['750ml']
@@ -942,9 +948,9 @@ const productsDatabase = {
         description: 'Maillot diseñado específicamente para el cuerpo femenino. Corte anatómico con tejido técnico de alta calidad.',
         images: [
             'images/MAILLOT PRO MUJER .jpg',
-            'images/MAILLOT PRO MUJER .jpg',
-            'images/MAILLOT PRO MUJER .jpg',
-            'images/MAILLOT PRO MUJER .jpg'
+            'images/LATERAL MAILLOT PRO MUJER.png',
+            'images/TRASERA MAILLOT PRO MUJER.png',
+            'images/DETALLE MAILLOT PRO MUJER.png'
         ],
         colors: ['#c4382e', '#9eef6b', '#2e5c8e'],
         sizes: ['XS', 'S', 'M', 'L']
@@ -960,12 +966,66 @@ const productsDatabase = {
         description: 'Calcetines ecológicos fabricados con materiales reciclados. Transpirables y cómodos para largas rutas.',
         images: [
             'images/CALCETINES 2.png',
-            'images/CALCETINES 2.png',
-            'images/CALCETINES 2.png',
-            'images/CALCETINES 2.png'
+            'images/LATERAL CALCETINES 2.png',
+            'images/TRASERA CALCETINES 2.png',
+            'images/DETALLE CALCETINES 2.png'
         ],
         colors: ['#1a1a1a', '#9eef6b', '#c4382e'],
         sizes: ['S', 'M', 'L']
+    },
+    13: {
+        id: 13,
+        name: 'CASCO URBAN LITE',
+        category: 'CASCOS',
+        price: 119.99,
+        stock: true,
+        rating: 4.2,
+        reviews: 35,
+        description: 'Casco urbano ligero con diseño moderno. Ideal para desplazamientos diarios con máxima seguridad y estilo.',
+        images: [
+            'images/CASCO 2.png',
+            'images/LATERAL CASCO 2.png',
+            'images/TRASERA CASCO 2.png',
+            'images/DETALLE CASCO 2.png'
+        ],
+        colors: ['#1a1a1a', '#ffffff', '#9eef6b'],
+        sizes: ['S', 'M', 'L']
+    },
+    14: {
+        id: 14,
+        name: 'CASCO ENDURO EXTREME',
+        category: 'CASCOS',
+        price: 159.99,
+        stock: true,
+        rating: 4.8,
+        reviews: 48,
+        description: 'Casco de enduro con protección integral y mentonera desmontable. Diseñado para los descensos más exigentes.',
+        images: [
+            'images/CASCO 4.png',
+            'images/LATERAL CASCO 4.png',
+            'images/TRASERA CASCO 4.png',
+            'images/DETALLE CASCO 4.png'
+        ],
+        colors: ['#1a1a1a', '#c4382e', '#2e5c8e'],
+        sizes: ['S', 'M', 'L']
+    },
+    15: {
+        id: 15,
+        name: 'BIDON PRO 750ML',
+        category: 'ACCESORIOS',
+        price: 17.99,
+        stock: true,
+        rating: 4.4,
+        reviews: 31,
+        description: 'Bidón profesional con sistema de flujo optimizado. Agarre ergonómico y materiales de alta calidad.',
+        images: [
+            'images/BOTELLIN SPINLEY (2).png',
+            'images/LATERAL BOTELLIN SPINLEY 2.png',
+            'images/TRASERA BOTELLIN SPINLEY 2.png',
+            'images/DETALLE BOTELLIN SPINLEY 2.png'
+        ],
+        colors: ['#2e5c8e', '#9eef6b', '#1a1a1a'],
+        sizes: ['750ml']
     }
 };
 
