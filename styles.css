@@ -2141,6 +2141,43 @@ body {
     outline-offset: 2px;
 }
 
+@media (max-width: 1024px) {
+    .map-link iframe {
+        height: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .map-link iframe {
+        height: 250px;
+    }
+
+    .map-overlay {
+        font-size: 13px;
+    }
+
+    .map-overlay svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .map-link iframe {
+        height: 200px;
+    }
+
+    .map-overlay {
+        font-size: 12px;
+        gap: 6px;
+    }
+
+    .map-overlay svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
 @media (max-width: 768px) {
     .contact-layout {
         grid-template-columns: 1fr;
