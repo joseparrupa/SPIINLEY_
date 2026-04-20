@@ -2091,26 +2091,98 @@ body {
 }
 
 .contact-map {
-    background-color: #121212;
+    background: linear-gradient(135deg, rgba(158, 239, 107, 0.1), rgba(158, 239, 107, 0.05));
+    border: 1px solid rgba(158, 239, 107, 0.2);
     border-radius: 8px;
-    height: 300px;
+    padding: 25px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.map-link {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.map-link iframe {
+    display: block;
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.map-overlay {
+    position: absolute;
+    inset: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.map-placeholder {
-    text-align: center;
-}
-
-.map-placeholder svg {
-    margin-bottom: 15px;
-    opacity: 0.6;
-}
-
-.map-placeholder p {
+    gap: 8px;
+    background-color: rgba(0, 0, 0, 0.35);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    border-radius: 8px;
+    color: #fff;
     font-size: 14px;
-    color: #888;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.map-link:hover .map-overlay,
+.map-link:focus .map-overlay {
+    opacity: 1;
+}
+
+.map-link:focus {
+    outline: 2px solid #9eef6b;
+    outline-offset: 2px;
+}
+
+@media (max-width: 1024px) {
+    .map-link iframe {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .map-link iframe {
+        height: 300px;
+    }
+
+    .map-overlay {
+        font-size: 13px;
+    }
+
+    .map-overlay svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-map {
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .map-link iframe {
+        height: 250px;
+    }
+
+    .map-overlay {
+        font-size: 12px;
+        gap: 6px;
+    }
+
+    .map-overlay svg {
+        width: 16px;
+        height: 16px;
+    }
 }
 
 @media (max-width: 768px) {
