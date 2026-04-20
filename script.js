@@ -764,6 +764,33 @@ const productsDatabase = {
         rating: 4.1,
         reviews: 45,
         description: 'Maillot de manga larga diseñado para ciclistas exigentes que buscan rendimiento y sostenibilidad. Fabricado con tejidos técnicos reciclados de alta calidad.',
+        descriptionExtended: {
+            intro: 'El Maillot SPINLEY Blend 1.0 es la elección perfecta para ciclistas comprometidos con el medio ambiente sin renunciar al rendimiento. Este maillot de manga larga combina tecnología avanzada con materiales sostenibles.',
+            features: [
+                'Tejido técnico reciclado de alta transpirabilidad',
+                'Sistema de control de humedad avanzado',
+                'Ajuste aerodinámico para máxima eficiencia',
+                'Bolsillos traseros con capacidad reforzada',
+                'Cremallera YKK de alta calidad',
+                'Elementos reflectantes para mayor visibilidad',
+                'Fabricado con materiales 100% reciclados'
+            ],
+            sustainability: 'En SPINLEY nos preocupamos por el planeta. Este maillot está fabricado con botellas de plástico recicladas, reduciendo el impacto ambiental sin comprometer la calidad ni el rendimiento.'
+        },
+        specs: [
+            { label: 'Material', value: '85% poliéster reciclado, 15% elastano' },
+            { label: 'Peso', value: '180g (talla M)' },
+            { label: 'Ajuste', value: 'Slim fit / Race fit' },
+            { label: 'Temperatura recomendada', value: '10°C - 20°C' },
+            { label: 'Cuidados', value: 'Lavar a máquina 30°C, no usar secadora' },
+            { label: 'Origen', value: 'Diseñado en España, fabricado en Portugal' }
+        ],
+        reviewsList: [
+            { name: 'Carlos M.', stars: 5, date: '15 de marzo de 2026', text: 'Excelente calidad y muy cómodo. El ajuste es perfecto y la transpirabilidad es increíble incluso en rutas largas.' },
+            { name: 'Laura G.', stars: 4, date: '8 de marzo de 2026', text: 'Muy contenta con la compra. El diseño es espectacular y me encanta que sea eco-friendly. Solo le doy 4 estrellas porque me gustaría que tuviera más opciones de color.' },
+            { name: 'Miguel A.', stars: 5, date: '2 de marzo de 2026', text: 'Relación calidad-precio inmejorable. Llevo usándolo 3 semanas y está como el primer día.' },
+            { name: 'Ana R.', stars: 4, date: '28 de febrero de 2026', text: 'Buen maillot en general, aunque el tallaje es un poco ajustado. Recomiendo pedir una talla más.' }
+        ],
         images: [
             'images/FOTO MAILLOT ROJO .png',
             'images/LATERLA MAILLOT ROJO.png',
@@ -782,6 +809,34 @@ const productsDatabase = {
         rating: 4.5,
         reviews: 67,
         description: 'Maillot aerodinámico de alto rendimiento para ciclistas competitivos. Diseño ajustado que reduce la resistencia al viento.',
+        descriptionExtended: {
+            intro: 'El Maillot SPINLEY Aero Pro está diseñado para quienes buscan el máximo rendimiento en competición. Su perfil aerodinámico y sus materiales técnicos de última generación marcan la diferencia en cada kilómetro.',
+            features: [
+                'Tejido AeroTech de baja resistencia al viento',
+                'Paneles de silicona antideslizante en bajo',
+                'Costuras planas termoselladas sin rozaduras',
+                '3 bolsillos traseros más bolsillo de cremallera',
+                'Cuello con protección UV 50+',
+                'Reflectantes 360° para máxima visibilidad',
+                'Compatible con potencia y sensores de cadencia'
+            ],
+            sustainability: 'El Maillot Aero Pro incorpora un 60% de fibras recicladas certificadas bluesign®, reduciendo el consumo de agua en su producción en un 50% respecto a tejidos convencionales.'
+        },
+        specs: [
+            { label: 'Material', value: '78% poliéster reciclado, 22% elastano' },
+            { label: 'Peso', value: '155g (talla M)' },
+            { label: 'Ajuste', value: 'Race fit / Ultra slim' },
+            { label: 'Temperatura recomendada', value: '15°C - 28°C' },
+            { label: 'Cuidados', value: 'Lavar a mano o máquina 30°C, no planchar' },
+            { label: 'Certificaciones', value: 'bluesign®, OEKO-TEX Standard 100' },
+            { label: 'Origen', value: 'Diseñado y fabricado en España' }
+        ],
+        reviewsList: [
+            { name: 'Javier P.', stars: 5, date: '10 de abril de 2026', text: 'El mejor maillot que he usado en competición. Se nota la diferencia aerodinámica y el ajuste es perfecto.' },
+            { name: 'Sofía L.', stars: 5, date: '3 de abril de 2026', text: 'Increíble calidad. Lo usé en mi última carrera y quedé encantada. La transpirabilidad es brutal.' },
+            { name: 'Roberto F.', stars: 4, date: '25 de marzo de 2026', text: 'Muy buen producto. La tela es suave y resistente. Le quito una estrella porque el color verde es algo diferente al de la foto.' },
+            { name: 'Elena V.', stars: 4, date: '18 de marzo de 2026', text: 'Excelente relación calidad-precio para un maillot de competición. El bolsillo de cremallera es muy útil.' }
+        ],
         images: [
             'images/FOTO MODELO MAILLOT VERDE .png',
             'images/LATERAL MAILLOT VERDE.png',
@@ -800,6 +855,34 @@ const productsDatabase = {
         rating: 4.3,
         reviews: 38,
         description: 'Maillot diseñado especialmente para mountain bike. Tejido resistente y transpirable ideal para rutas de montaña.',
+        descriptionExtended: {
+            intro: 'El Maillot Trail Mountain de SPINLEY nace de la necesidad de los riders de montaña: un jersey que aguante el trote de los senderos más exigentes sin sacrificar la comodidad ni el aspecto técnico.',
+            features: [
+                'Tejido TrailShield reforzado en hombros y codos',
+                'Corte holgado para mayor libertad de movimiento',
+                'Sistema de ventilación con paneles de malla',
+                '2 bolsillos laterales de fácil acceso',
+                'Bajo ajustable con cordón regulador',
+                'Protección UV 40+',
+                'Compatible con protecciones de trail'
+            ],
+            sustainability: 'Fabricado con un 70% de poliéster reciclado postconsumo. Cada maillot evita el uso de aproximadamente 5 botellas de plástico de 500ml.'
+        },
+        specs: [
+            { label: 'Material', value: '70% poliéster reciclado, 30% poliéster técnico' },
+            { label: 'Peso', value: '210g (talla M)' },
+            { label: 'Ajuste', value: 'Regular fit / Trail fit' },
+            { label: 'Temperatura recomendada', value: '8°C - 22°C' },
+            { label: 'Cuidados', value: 'Lavar a máquina 40°C, no usar secadora' },
+            { label: 'Protección UV', value: 'UPF 40+' },
+            { label: 'Origen', value: 'Diseñado en España, fabricado en Portugal' }
+        ],
+        reviewsList: [
+            { name: 'Marcos T.', stars: 5, date: '5 de abril de 2026', text: 'Perfecto para el trail. Los bolsillos laterales son muy prácticos y el tejido aguanta bien los roces con las ramas.' },
+            { name: 'Patricia S.', stars: 4, date: '29 de marzo de 2026', text: 'Muy cómodo para rutas largas de montaña. El corte holgado permite una gran libertad de movimiento.' },
+            { name: 'Diego N.', stars: 4, date: '20 de marzo de 2026', text: 'Buen maillot, muy transpirable. Solo echo en falta un bolsillo trasero clásico para guardar el móvil.' },
+            { name: 'Carmen R.', stars: 4, date: '12 de marzo de 2026', text: 'La calidad es muy buena y la tela es resistente. Lo recomiendo para rutas de montaña.' }
+        ],
         images: [
             'images/FOTO MODELO MAILLOT AZUL.png',
             'images/LATERAL MAILLOT AZUL.png',
@@ -818,6 +901,34 @@ const productsDatabase = {
         rating: 4.7,
         reviews: 52,
         description: 'Casco aerodinámico para ciclismo de carretera. Diseño ventilado con máxima protección y comodidad.',
+        descriptionExtended: {
+            intro: 'El Casco Aero Road de SPINLEY redefine el equilibrio entre aerodinámica y ventilación. Diseñado en colaboración con ingenieros de túnel de viento, ofrece un rendimiento aerodinámico excepcional sin sacrificar la circulación de aire.',
+            features: [
+                'Carcasa In-Mold de policarbonato de alto impacto',
+                '16 canales de ventilación optimizados por CFD',
+                'Sistema de ajuste RideFit de precisión milimétrica',
+                'Almohadillas antiodor extraíbles y lavables',
+                'Compatible con gafas de todas las marcas',
+                'Homologado CE EN 1078',
+                'Visera magnética opcional (no incluida)'
+            ],
+            sustainability: 'La espuma EPS del interior está fabricada con un 30% de material reciclado. El embalaje es 100% reciclable y libre de plásticos de un solo uso.'
+        },
+        specs: [
+            { label: 'Material exterior', value: 'Policarbonato In-Mold' },
+            { label: 'Material interior', value: 'EPS de alta densidad (30% reciclado)' },
+            { label: 'Peso', value: '260g (talla M)' },
+            { label: 'Tallas disponibles', value: 'S (52-55cm), M (55-58cm), L (58-62cm)' },
+            { label: 'Ventilación', value: '16 canales aerodinámicos' },
+            { label: 'Homologación', value: 'CE EN 1078, CPSC' },
+            { label: 'Origen', value: 'Diseñado en España, fabricado en Italia' }
+        ],
+        reviewsList: [
+            { name: 'Fernando G.', stars: 5, date: '8 de abril de 2026', text: 'El mejor casco que he tenido. Ligero, bien ventilado y con un ajuste perfecto. Lo recomiendo al 100%.' },
+            { name: 'Isabel M.', stars: 5, date: '1 de abril de 2026', text: 'Increíblemente cómodo. Lo uso en rutas largas y no noto presión en ningún punto de la cabeza.' },
+            { name: 'Andrés C.', stars: 4, date: '22 de marzo de 2026', text: 'Muy buen casco. La ventilación es excelente, aunque en días muy fríos quizás necesites algo con menos aireación.' },
+            { name: 'María J.', stars: 5, date: '15 de marzo de 2026', text: 'Diseño espectacular y muy ligero. El sistema de ajuste es sencillo y preciso.' }
+        ],
         images: [
             'images/CASCO 1.png',
             'images/LATERAL CASCO 1.png',
@@ -836,6 +947,34 @@ const productsDatabase = {
         rating: 4.4,
         reviews: 41,
         description: 'Casco versátil con excelente ventilación y ajuste personalizable. Perfecto para entrenamientos y competiciones.',
+        descriptionExtended: {
+            intro: 'El Casco Performance de SPINLEY es el compañero ideal para cualquier tipo de ciclista. Su diseño versátil y su amplio rango de ventilación lo convierten en el casco perfecto tanto para entrenamientos diarios como para competiciones de nivel medio.',
+            features: [
+                'Construcción In-Mold de alta resistencia',
+                '20 ranuras de ventilación distribuidas estratégicamente',
+                'Sistema de retención ajustable en 3 posiciones',
+                'Correas de tejido suave antirozaduras',
+                'Almohadillas de espuma viscoelástica',
+                'Insertos reflectantes traseros',
+                'Homologado CE EN 1078 y AS/NZS 2063'
+            ],
+            sustainability: 'Producido en una fábrica certificada ISO 14001. Los materiales de embalaje son reciclables al 100% y la empresa compensa su huella de carbono con plantaciones forestales.'
+        },
+        specs: [
+            { label: 'Material exterior', value: 'ABS + Policarbonato' },
+            { label: 'Material interior', value: 'EPS multicapa' },
+            { label: 'Peso', value: '290g (talla M)' },
+            { label: 'Tallas disponibles', value: 'S (51-55cm), M (55-59cm), L (59-63cm)' },
+            { label: 'Ventilación', value: '20 ranuras de flujo cruzado' },
+            { label: 'Homologación', value: 'CE EN 1078, AS/NZS 2063' },
+            { label: 'Origen', value: 'Diseñado en España, fabricado en Portugal' }
+        ],
+        reviewsList: [
+            { name: 'Pablo R.', stars: 5, date: '12 de abril de 2026', text: 'Muy buena relación calidad-precio. Cómodo desde el primer momento y bien ventilado.' },
+            { name: 'Lucía F.', stars: 4, date: '6 de abril de 2026', text: 'Me encanta el ajuste. Las correas son muy suaves y no generan marcas en la piel.' },
+            { name: 'Tomás A.', stars: 4, date: '28 de marzo de 2026', text: 'Sólido y fiable. Lo uso a diario para ir al trabajo en bici y es muy cómodo.' },
+            { name: 'Natalia B.', stars: 5, date: '20 de marzo de 2026', text: 'Excelente casco. La ventilación es suficiente incluso en verano. Muy recomendable.' }
+        ],
         images: [
             'images/CASCO.png',
             'images/LATERAL CASCO.png',
@@ -854,6 +993,34 @@ const productsDatabase = {
         rating: 4.6,
         reviews: 29,
         description: 'Casco específico para mountain bike con protección extendida. Visera ajustable y sistema de ventilación optimizado.',
+        descriptionExtended: {
+            intro: 'El Casco MTB Pro de SPINLEY está diseñado para los amantes del trail y el enduro suave. Su cobertura extendida en occipital y sus robustos materiales ofrecen una protección superior para los senderos más técnicos.',
+            features: [
+                'Cobertura occipital extendida para trail',
+                'Visera ajustable en 3 posiciones',
+                'Interior de espuma EPS y EPP dual-density',
+                'Sistema MIPS de protección ante impactos rotacionales',
+                '14 canales de ventilación de alto flujo',
+                'Almohadillas magnéticas extraíbles y lavables',
+                'Compatible con gafas de MTB y máscaras faciales'
+            ],
+            sustainability: 'El Casco MTB Pro incorpora tecnología MIPS para mayor seguridad. Los materiales empleados son conformes a la directiva REACH europea sobre sustancias químicas.'
+        },
+        specs: [
+            { label: 'Material exterior', value: 'Policarbonato reforzado In-Mold' },
+            { label: 'Material interior', value: 'EPS + EPP dual-density + MIPS' },
+            { label: 'Peso', value: '310g (talla M)' },
+            { label: 'Tallas disponibles', value: 'S (52-56cm), M (56-60cm), L (60-64cm)' },
+            { label: 'Ventilación', value: '14 canales de alto flujo' },
+            { label: 'Homologación', value: 'CE EN 1078, ASTM F1952' },
+            { label: 'Origen', value: 'Diseñado en España, fabricado en Taiwan' }
+        ],
+        reviewsList: [
+            { name: 'Álvaro D.', stars: 5, date: '14 de abril de 2026', text: 'El sistema MIPS da mucha confianza. Se nota que es un casco pensado para el trail de verdad.' },
+            { name: 'Sandra M.', stars: 5, date: '7 de abril de 2026', text: 'Muy bien protegido y con buena ventilación. La visera ajustable es un must para el monte.' },
+            { name: 'Raúl G.', stars: 4, date: '30 de marzo de 2026', text: 'Buena construcción y materiales de calidad. Un poco más pesado que los de gama alta, pero el precio lo justifica.' },
+            { name: 'Cristina L.', stars: 4, date: '22 de marzo de 2026', text: 'Me lo compré para hacer trail y estoy muy contenta. Muy cómodo y la visera es muy útil.' }
+        ],
         images: [
             'images/CASCO 3.png',
             'images/LATERLA CASCO 3.png',
@@ -872,6 +1039,34 @@ const productsDatabase = {
         rating: 4.5,
         reviews: 32,
         description: 'Reloj deportivo inteligente diseñado para ciclistas. Monitoriza tu rendimiento, GPS integrado y resistente al agua.',
+        descriptionExtended: {
+            intro: 'El Reloj SPINLEY es el compañero tecnológico definitivo para el ciclista moderno. Con GPS de alta precisión, monitor cardíaco óptico y conectividad ANT+/Bluetooth, pone a tu disposición todos los datos que necesitas para optimizar tu rendimiento.',
+            features: [
+                'GPS dual-band de alta precisión (GPS + GLONASS)',
+                'Monitor cardíaco óptico de 24 pulsos por segundo',
+                'Conectividad ANT+ y Bluetooth 5.0',
+                'Pantalla AMOLED de 1.4" con 454x454px',
+                'Autonomía de 20h en modo GPS activo',
+                'Resistencia al agua 5ATM (50m)',
+                'Compatible con sensores de potencia, cadencia y velocidad'
+            ],
+            sustainability: 'La correa del Reloj SPINLEY está fabricada con caucho reciclado libre de látex. El embalaje es 100% papel FSC y el producto viene sin plásticos innecesarios.'
+        },
+        specs: [
+            { label: 'Pantalla', value: 'AMOLED 1.4", 454x454px, cristal Gorilla Glass' },
+            { label: 'GPS', value: 'Dual-band GPS + GLONASS + Galileo' },
+            { label: 'Autonomía', value: '20h GPS activo / 14 días en uso normal' },
+            { label: 'Resistencia al agua', value: '5ATM (50 metros)' },
+            { label: 'Conectividad', value: 'ANT+, Bluetooth 5.0, Wi-Fi 802.11b/g/n' },
+            { label: 'Peso', value: '52g (sin correa)' },
+            { label: 'Sensores', value: 'Cardíaco óptico, altímetro barométrico, brújula, termómetro' }
+        ],
+        reviewsList: [
+            { name: 'Hugo S.', stars: 5, date: '16 de abril de 2026', text: 'El GPS es muy preciso y la pantalla se ve perfectamente al sol. Totalmente recomendable para ciclismo.' },
+            { name: 'Marta C.', stars: 4, date: '9 de abril de 2026', text: 'Muy completo. La app de acompañamiento es intuitiva y la autonomía es suficiente para salidas largas.' },
+            { name: 'Víctor E.', stars: 5, date: '2 de abril de 2026', text: 'Lo tengo desde hace un mes y estoy encantado. La cardio óptica es muy precisa y el altímetro funciona genial.' },
+            { name: 'Rosa T.', stars: 4, date: '25 de marzo de 2026', text: 'Muy buen reloj. La interfaz es moderna y fácil de usar. Le doy 4 porque la correa podría ser más resistente.' }
+        ],
         images: [
             'images/RELOJ SPINLEY.png',
             'images/LATERAL RELOJ SPINLEY.png',
@@ -890,6 +1085,34 @@ const productsDatabase = {
         rating: 4.0,
         reviews: 33,
         description: 'Calcetines técnicos con compresión graduada. Tejido antibacteriano y costuras planas para evitar rozaduras.',
+        descriptionExtended: {
+            intro: 'Los Calcetines Performance de SPINLEY han sido desarrollados junto a fisioterapeutas deportivos para ofrecer la compresión ideal en cada zona del pie y el tobillo. El tejido antibacteriano mantiene los pies frescos durante toda la jornada.',
+            features: [
+                'Compresión graduada: 15-20 mmHg en tobillo',
+                'Tejido antibacteriano con iones de plata',
+                'Costuras planas invisibles antirrozaduras',
+                'Zona de acolchado en talón y metatarso',
+                'Arco de soporte anatómico',
+                'Altura sobre el tobillo de 15cm',
+                'Banda elástica superior antideslizante'
+            ],
+            sustainability: 'Los Calcetines Performance incorporan un 40% de algodón orgánico certificado GOTS. Fabricados en una planta que usa energía 100% renovable.'
+        },
+        specs: [
+            { label: 'Material', value: '40% algodón orgánico, 35% poliéster, 20% poliamida, 5% elastano' },
+            { label: 'Compresión', value: '15-20 mmHg (graduada)' },
+            { label: 'Altura', value: '15cm sobre el tobillo' },
+            { label: 'Tallas', value: 'S (36-39), M (40-43), L (44-47)' },
+            { label: 'Cuidados', value: 'Lavar a máquina 40°C, no usar lejía' },
+            { label: 'Certificaciones', value: 'GOTS (algodón orgánico), Oeko-Tex 100' },
+            { label: 'Origen', value: 'Fabricado en España' }
+        ],
+        reviewsList: [
+            { name: 'Ignacio P.', stars: 4, date: '11 de abril de 2026', text: 'Muy cómodos y la compresión se nota. Mis pies agradecen el acolchado en el talón.' },
+            { name: 'Beatriz H.', stars: 4, date: '4 de abril de 2026', text: 'Buenos calcetines. No generan rozaduras y aguantan bien lavado tras lavado.' },
+            { name: 'César O.', stars: 4, date: '27 de marzo de 2026', text: 'La calidad es buena para el precio. El tejido antibacteriano funciona, no hay olores después de una ruta larga.' },
+            { name: 'Pilar M.', stars: 4, date: '18 de marzo de 2026', text: 'Muy buenos calcetines técnicos. Se ajustan bien y no bajan durante el pedaleo.' }
+        ],
         images: [
             'images/CALCETINES 1.png',
             'images/LATERAL CALCETINES 1.png',
@@ -908,6 +1131,34 @@ const productsDatabase = {
         rating: 4.8,
         reviews: 74,
         description: 'Zapatillas de carretera con suela de carbono. Máxima transferencia de potencia y cierre BOA de precisión.',
+        descriptionExtended: {
+            intro: 'Las Zapatillas Carbon Road de SPINLEY representan el estado del arte en calzado ciclista de carretera. La suela de carbono unidireccional garantiza una transferencia de potencia del 98%, mientras que el sistema de cierre BOA L6 permite un ajuste perfecto y rápido incluso en marcha.',
+            features: [
+                'Suela de carbono unidireccional 100% (índice 12)',
+                'Sistema de cierre BOA L6 dual con microprecisión',
+                'Upper de malla 3D termoformada',
+                'Plantilla EVA con soporte de arco personalizable',
+                'Compatible con calas 3 tornillos (Look, Shimano SPD-SL)',
+                'Forro interior transpirable con tejido Dry-Technology',
+                'Talón reforzado con TPU rígido'
+            ],
+            sustainability: 'La producción de las Zapatillas Carbon Road está certificada por la norma ISO 14001 de gestión ambiental. El 30% de los materiales del upper proceden de fuentes recicladas.'
+        },
+        specs: [
+            { label: 'Suela', value: 'Carbono unidireccional, índice de rigidez 12' },
+            { label: 'Upper', value: 'Malla 3D termoformada + refuerzos TPU' },
+            { label: 'Cierre', value: 'BOA L6 dual (2 diales independientes)' },
+            { label: 'Compatibilidad', value: '3 tornillos: Look, Shimano SPD-SL, Time' },
+            { label: 'Peso', value: '240g por zapatilla (talla 42)' },
+            { label: 'Tallas', value: '38 al 45 (disponible en ½ talla desde la 40)' },
+            { label: 'Origen', value: 'Diseñado en España, fabricado en Italia' }
+        ],
+        reviewsList: [
+            { name: 'Alberto M.', stars: 5, date: '17 de abril de 2026', text: 'Las mejores zapatillas que he tenido. La suela de carbono transmite toda la potencia y el BOA es comodísimo de ajustar.' },
+            { name: 'Silvia R.', stars: 5, date: '10 de abril de 2026', text: 'Increíblemente ligeras. Noté la diferencia desde el primer pedaleo. Muy recomendables.' },
+            { name: 'Jorge L.', stars: 5, date: '3 de abril de 2026', text: 'Producto de gama alta a un precio muy competitivo. El ajuste BOA es una maravilla.' },
+            { name: 'Elena G.', stars: 4, date: '26 de marzo de 2026', text: 'Muy buenas zapatillas. El upper es muy transpirable y la suela rígida se nota mucho. Le quito una estrella porque tardaron en amoldarse al pie.' }
+        ],
         images: [
             'images/ZAPATILLAS SPINLE.png',
             'images/LATERAL ZAPATILLAS SPINLE.png',
@@ -926,6 +1177,34 @@ const productsDatabase = {
         rating: 4.1,
         reviews: 28,
         description: 'Bidón ecológico fabricado con materiales reciclados. Sin BPA, fácil de limpiar y compatible con todos los portabidones.',
+        descriptionExtended: {
+            intro: 'El Bidón Eco 750ml de SPINLEY es la opción más sostenible para hidratarte durante tus rutas. Fabricado íntegramente con plástico reciclado certificado sin BPA, ofrece una solución ecológica sin renunciar a la funcionalidad.',
+            features: [
+                'Plástico reciclado certificado libre de BPA y ftalatos',
+                'Boquilla de silicona de apertura fácil con una mano',
+                'Boca ancha para llenado y limpieza fáciles',
+                'Compatible con todos los portabidones estándar',
+                'Graduado en ml para control exacto de la hidratación',
+                'Tapón de seguridad contra derrames',
+                'Apto para bebidas calientes hasta 60°C'
+            ],
+            sustainability: 'El Bidón Eco está fabricado con un 95% de plástico postconsumo reciclado. Su producción consume un 70% menos de energía que un bidón convencional. Cada unidad reutiliza el equivalente a 3 botellas de plástico de 500ml.'
+        },
+        specs: [
+            { label: 'Capacidad', value: '750ml' },
+            { label: 'Material', value: '95% HDPE reciclado, 5% silicona (boquilla)' },
+            { label: 'Libre de', value: 'BPA, ftalatos, plomo y PVC' },
+            { label: 'Temperatura máx.', value: '60°C (bebidas calientes)' },
+            { label: 'Peso', value: '85g (vacío)' },
+            { label: 'Compatibilidad', value: 'Portabidones estándar (diámetro 74mm)' },
+            { label: 'Origen', value: 'Fabricado en España con materiales 100% locales' }
+        ],
+        reviewsList: [
+            { name: 'Manuel V.', stars: 4, date: '13 de abril de 2026', text: 'Buena calidad para el precio. Me gusta que sea ecológico y la boquilla funciona bien.' },
+            { name: 'Nerea A.', stars: 4, date: '6 de abril de 2026', text: 'Práctico y ligero. Entra bien en los portabidones y no da sabor al agua.' },
+            { name: 'Sergio P.', stars: 4, date: '29 de marzo de 2026', text: 'Buen bidón. La apertura con una mano es muy cómoda durante el pedaleo.' },
+            { name: 'Laura S.', stars: 4, date: '21 de marzo de 2026', text: 'Me gusta que sea reciclado. Funciona perfectamente y es muy fácil de limpiar.' }
+        ],
         images: [
             'images/BOTELLIN SPINLEY (1).png',
             'images/LATERAL BOTELLIN SPINLEY 1.png',
@@ -944,6 +1223,34 @@ const productsDatabase = {
         rating: 4.3,
         reviews: 25,
         description: 'Calcetines ecológicos fabricados con materiales reciclados. Transpirables y cómodos para largas rutas.',
+        descriptionExtended: {
+            intro: 'Los Calcetines Eco de SPINLEY son la opción más comprometida con el planeta sin renunciar al rendimiento. Fabricados con fibras recicladas y orgánicas, ofrecen una comodidad superior durante toda la ruta mientras cuidan el medioambiente.',
+            features: [
+                'Tejido EcoBlend: 60% algodón orgánico + 40% poliéster reciclado',
+                'Tejido de punto tridimensional para máxima transpirabilidad',
+                'Costuras planas ultrafinas sin rozaduras',
+                'Zona de acolchado diferencial por zonas',
+                'Altura media (sobre el tobillo: 12cm)',
+                'Diseño ergonómico derecho/izquierdo',
+                'Tinte libre de metales pesados'
+            ],
+            sustainability: 'Los Calcetines Eco usan fibras de algodón orgánico certificado GOTS y poliéster reciclado de botellas PET. El proceso de tinte no usa metales pesados y el agua residual es tratada y reutilizada en planta.'
+        },
+        specs: [
+            { label: 'Material', value: '60% algodón orgánico GOTS, 40% poliéster reciclado' },
+            { label: 'Altura', value: '12cm sobre el tobillo' },
+            { label: 'Tallas', value: 'S (36-39), M (40-43), L (44-47)' },
+            { label: 'Cuidados', value: 'Lavar a máquina 30°C, no usar secadora ni lejía' },
+            { label: 'Certificaciones', value: 'GOTS, Global Recycled Standard (GRS)' },
+            { label: 'Diseño', value: 'Ergonómico derecho/izquierdo' },
+            { label: 'Origen', value: 'Fabricado en España con materiales certificados' }
+        ],
+        reviewsList: [
+            { name: 'Carla N.', stars: 5, date: '15 de abril de 2026', text: 'Los mejores calcetines de ciclismo que he tenido. Muy suaves y sin rozaduras en ningún punto.' },
+            { name: 'Óscar F.', stars: 4, date: '8 de abril de 2026', text: 'Muy cómodos y transpirables. Me gusta la diferenciación izquierdo/derecho, se nota en el ajuste.' },
+            { name: 'Inés T.', stars: 4, date: '1 de abril de 2026', text: 'Buenos calcetines. Me gustan especialmente porque son ecológicos. La calidad es muy buena.' },
+            { name: 'David C.', stars: 4, date: '24 de marzo de 2026', text: 'Muy buen producto. Aguantan bien los lavados y mantienen la forma.' }
+        ],
         images: [
             'images/CALCETINES 2.png',
             'images/LATERAL CALCETINES 2.png',
@@ -962,6 +1269,34 @@ const productsDatabase = {
         rating: 4.2,
         reviews: 35,
         description: 'Casco urbano ligero con diseño moderno. Ideal para desplazamientos diarios con máxima seguridad y estilo.',
+        descriptionExtended: {
+            intro: 'El Casco Urban Lite de SPINLEY está pensado para el ciclista urbano que busca seguridad sin renunciar al estilo. Su perfil minimalista y su peso ultraligero lo hacen perfecto para los desplazamientos diarios en ciudad.',
+            features: [
+                'Construcción micro shell de perfil ultra bajo',
+                'Forma semiredonda de inspiración retro-moderna',
+                '10 ranuras de ventilación integradas en el diseño',
+                'Forro interior en tejido cachemir antibacteriano',
+                'Sistema de ajuste dial trasero de giro rápido',
+                'Compatible con luz trasera magnética (accesorio opcional)',
+                'Disponible en 6 combinaciones de color'
+            ],
+            sustainability: 'El Casco Urban Lite está fabricado con un 25% de materiales reciclados y su embalaje es 100% kraft reciclado. La empresa fabrica los cascos urbanos con energía solar en su planta de producción.'
+        },
+        specs: [
+            { label: 'Material exterior', value: 'PC micro-shell ultrafino' },
+            { label: 'Material interior', value: 'EPS expandido de baja densidad' },
+            { label: 'Peso', value: '240g (talla M)' },
+            { label: 'Tallas disponibles', value: 'S (52-55cm), M (55-58cm), L (58-62cm)' },
+            { label: 'Ventilación', value: '10 ranuras integradas' },
+            { label: 'Homologación', value: 'CE EN 1078' },
+            { label: 'Origen', value: 'Diseñado en España, fabricado en Taiwan' }
+        ],
+        reviewsList: [
+            { name: 'Alicia B.', stars: 5, date: '19 de abril de 2026', text: 'Me encanta el diseño. Es ligero y cómodo para usarlo todos los días para ir al trabajo.' },
+            { name: 'Ernesto M.', stars: 4, date: '12 de abril de 2026', text: 'Muy buen casco urbano. El ajuste dial es muy preciso y se coloca en segundos.' },
+            { name: 'Valeria C.', stars: 4, date: '5 de abril de 2026', text: 'Bonito diseño y muy cómodo. La ventilación es suficiente para el uso diario en ciudad.' },
+            { name: 'Rubén S.', stars: 4, date: '28 de marzo de 2026', text: 'Ligero y estiloso. Perfecto para el día a día. La ventilación es básica pero suficiente.' }
+        ],
         images: [
             'images/CASCO 2.png',
             'images/LATERAL CASCO 2.png',
@@ -980,6 +1315,34 @@ const productsDatabase = {
         rating: 4.8,
         reviews: 48,
         description: 'Casco de enduro con protección integral y mentonera desmontable. Diseñado para los descensos más exigentes.',
+        descriptionExtended: {
+            intro: 'El Casco Enduro Extreme de SPINLEY es la máxima expresión en protección para enduro y descenso. Su mentonera desmontable en segundos permite usarlo como casco integral en DH o como casco abierto en los ascensos.',
+            features: [
+                'Mentonera desmontable con sistema de liberación rápida',
+                'Carcasa exterior de fibra de vidrio reforzada',
+                'Interior de EPS triple densidad con MIPS 2.0',
+                'Visera ajustable y desmontable',
+                'Almohadillas de espuma viscoelástica de memoria',
+                'Cierre de mentonera Fidlock magnético',
+                'Compatible con gafas de enduro y masks completas'
+            ],
+            sustainability: 'El Casco Enduro Extreme cumple con el Reglamento Europeo de Sustancias Químicas (REACH). La empresa colabora con programas de reciclaje de cascos al final de su vida útil.'
+        },
+        specs: [
+            { label: 'Material exterior', value: 'Fibra de vidrio reforzada (FRP)' },
+            { label: 'Material interior', value: 'EPS triple densidad + MIPS 2.0' },
+            { label: 'Peso', value: '890g con mentonera / 620g sin mentonera (talla M)' },
+            { label: 'Tallas disponibles', value: 'S (53-56cm), M (57-59cm), L (60-62cm)' },
+            { label: 'Ventilación', value: '8 canales de gran sección' },
+            { label: 'Homologación', value: 'CE EN 1078 (abierto), CE EN 1078 + ASTM F1952 DH (integral)' },
+            { label: 'Origen', value: 'Diseñado en España, fabricado en Italia' }
+        ],
+        reviewsList: [
+            { name: 'Adrián G.', stars: 5, date: '18 de abril de 2026', text: 'El mejor casco que he tenido para enduro. La mentonera se quita y pone en segundos y la protección es excelente.' },
+            { name: 'Miriam L.', stars: 5, date: '11 de abril de 2026', text: 'Muy sólido y bien construido. La tecnología MIPS da mucha tranquilidad en los descensos técnicos.' },
+            { name: 'Guillermo P.', stars: 5, date: '4 de abril de 2026', text: 'Increíble casco. Las almohadillas de memoria se adaptan perfectamente a la cabeza.' },
+            { name: 'Ana M.', stars: 4, date: '27 de marzo de 2026', text: 'Muy buena protección. Pesa bastante con la mentonera pero es lo esperado en esta categoría.' }
+        ],
         images: [
             'images/CASCO 4.png',
             'images/LATERAL CASCO 4.png',
@@ -998,6 +1361,34 @@ const productsDatabase = {
         rating: 4.4,
         reviews: 31,
         description: 'Bidón profesional con sistema de flujo optimizado. Agarre ergonómico y materiales de alta calidad.',
+        descriptionExtended: {
+            intro: 'El Bidón Pro 750ml de SPINLEY está diseñado para los ciclistas más exigentes. Su sistema de válvula de flujo optimizado permite una hidratación rápida y eficiente sin interrumpir el ritmo de pedaleo, mientras que el agarre ergonómico garantiza un manejo seguro incluso con guantes.',
+            features: [
+                'Válvula de flujo optimizado (200ml en 2 segundos)',
+                'Cuerpo ergonómico con zonas de agarre antideslizante',
+                'Material Tritan libre de BPA y ftalatos',
+                'Boquilla de silicona autoobturante sin goteo',
+                'Capacidad real de 750ml hasta el borde',
+                'Compatible con portabidones estándar y competición',
+                'Resistente al lavavajillas (temperatura baja)'
+            ],
+            sustainability: 'El Bidón Pro está fabricado en Tritan, un copoliéster de alta resistencia que no contiene BPA, BPS ni otros bisfenoles. Su producción cumple con los más altos estándares ambientales de la industria europea.'
+        },
+        specs: [
+            { label: 'Capacidad', value: '750ml' },
+            { label: 'Material', value: 'Tritan copoliéster (BPA free, BPS free)' },
+            { label: 'Flujo', value: '200ml en 2 segundos (válvula optimizada)' },
+            { label: 'Temperatura máx.', value: '50°C' },
+            { label: 'Peso', value: '95g (vacío)' },
+            { label: 'Compatibilidad', value: 'Portabidones estándar y de competición' },
+            { label: 'Lavavajillas', value: 'Apto (temperatura baja)' }
+        ],
+        reviewsList: [
+            { name: 'Emilio R.', stars: 5, date: '20 de abril de 2026', text: 'El flujo de este bidón es increíble. En un segundo tengo agua en la boca sin reducir el ritmo.' },
+            { name: 'Clara V.', stars: 4, date: '13 de abril de 2026', text: 'Muy buena calidad. La boquilla no gotea en absoluto y el agarre es excelente.' },
+            { name: 'Iván M.', stars: 4, date: '6 de abril de 2026', text: 'Buen bidón profesional. Se nota la diferencia respecto a los básicos en el flujo y en la comodidad del agarre.' },
+            { name: 'Rebeca O.', stars: 5, date: '29 de marzo de 2026', text: 'Excelente producto. Fácil de limpiar, no da sabor al agua y la válvula funciona perfectamente.' }
+        ],
         images: [
             'images/BOTELLIN SPINLEY (2).png',
             'images/LATERAL BOTELLIN SPINLEY 2.png',
@@ -1126,19 +1517,64 @@ function loadProductFromURL() {
         });
     }
     
-    // Update reviews section
+    // Update description tab
+    const descTab = document.getElementById('description');
+    if (descTab && product.descriptionExtended) {
+        const d = product.descriptionExtended;
+        descTab.innerHTML = `
+            <h3>Descripción del producto</h3>
+            <p>${d.intro}</p>
+            <h4>Características principales:</h4>
+            <ul>
+                ${d.features.map(f => `<li>${f}</li>`).join('')}
+            </ul>
+            <h4>Sostenibilidad:</h4>
+            <p>${d.sustainability}</p>
+        `;
+    }
+
+    // Update specs tab
+    const specsTab = document.getElementById('specs');
+    if (specsTab && product.specs) {
+        specsTab.innerHTML = `
+            <h3>Especificaciones técnicas</h3>
+            <ul>
+                ${product.specs.map(s => `<li><strong>${s.label}:</strong> ${s.value}</li>`).join('')}
+            </ul>
+        `;
+    }
+
+    // Update reviews tab
     const reviewsRatingNumber = document.querySelector('.rating-number');
     if (reviewsRatingNumber) reviewsRatingNumber.textContent = product.rating;
-    
+
     const reviewsStars = document.querySelector('.stars-large');
     if (reviewsStars) {
         const fullStars = Math.floor(product.rating);
         const emptyStars = 5 - fullStars;
         reviewsStars.innerHTML = '★'.repeat(fullStars) + `<span class="empty">${'★'.repeat(emptyStars)}</span>`;
     }
-    
+
     const reviewsCount = document.querySelector('.reviews-summary p');
     if (reviewsCount) reviewsCount.textContent = `${product.reviews} valoraciones`;
+
+    const reviewsList = document.querySelector('.reviews-list');
+    if (reviewsList && product.reviewsList) {
+        reviewsList.innerHTML = product.reviewsList.map(r => {
+            const fullStars = '★'.repeat(r.stars);
+            const emptyStars = r.stars < 5 ? `<span class="empty">${'★'.repeat(5 - r.stars)}</span>` : '';
+            return `
+                <div class="review-item">
+                    <div class="review-header">
+                        <strong>${r.name}</strong>
+                        <div class="stars-small">${fullStars}${emptyStars}</div>
+                    </div>
+                    <p class="review-date">${r.date}</p>
+                    <p>${r.text}</p>
+                </div>
+            `;
+        }).join('') + `<button class="btn btn-secondary">Ver más valoraciones</button>`;
+    }
 }
 
 function initProductDetail() {
